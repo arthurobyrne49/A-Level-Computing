@@ -6,8 +6,7 @@ The program should calculate and display the number of times the most frequently
 entered numeric digit was input.
 If more than one numeric digit had the same frequency and was the most requently
 entered than instead of displaying the frequency, a message saying "Data was 
-multimodal" should be displayed.
-"""
+multimodal" should be displayed."""
 
 
 total_digits = int(input("How many digits do you want to enter? "))
@@ -29,6 +28,3 @@ if len(mode) > 1:
 else:
     print("Mode: " + mode)
     print("Frequency: " + str(frequency))
-
-
-
