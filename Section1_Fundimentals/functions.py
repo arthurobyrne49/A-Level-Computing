@@ -1,4 +1,4 @@
-def alphabet_only(s1:str):
+def alphabet_only(s1:str): 
     alphabet_string = ""
 
     for i in range(len(s1)):
